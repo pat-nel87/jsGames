@@ -77,7 +77,7 @@ function generateRandomColor()
 {
     var randomColor = '#'+Math.floor(Math.random()*16777215).toString(16);
     return randomColor;
-    //random color will be freshly served
+    //random color, currently unused.
 }
 
 function drawBall(color)
@@ -169,20 +169,5 @@ function keyUpHandler(e) {
 var interval = setInterval(draw, 10);
 
 
-/* ctx.beginPath();
-ctx.rect(20, 40, 100, 100);
-ctx.fillStyle = "green";
-ctx.fill();
-ctx.closePath();
 
-ctx.beginPath();
-ctx.arc(240, 160, 20, 0, Math.PI*2, false);
-ctx.fillStyle = "green";
-ctx.fill();
-ctx.closePath();
 
-ctx.beginPath();
-ctx.rect(160, 10, 100, 40);
-ctx.strokeStyle = "rgba(0, 0, 20, 0.5)";
-ctx.stroke();
-ctx.closePath(); */
